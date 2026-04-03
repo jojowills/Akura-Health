@@ -14,7 +14,7 @@ export default function Home() {
         <div style={{display: "flex", gap: "28px", alignItems: "center"}}>
           <a href="/about" style={{color: "rgba(250,247,242,0.55)", fontSize: "13px", textDecoration: "none"}}>About</a>
           <a href="#boxes" style={{color: "rgba(250,247,242,0.55)", fontSize: "13px", textDecoration: "none"}}>Our Boxes</a>
-          <a href="#business" style={{color: "rgba(250,247,242,0.55)", fontSize: "13px", textDecoration: "none"}}>For Business</a>
+          <a href="/business" style={{color: "rgba(250,247,242,0.55)", fontSize: "13px", textDecoration: "none"}}>For Business</a>
           <a href="#waitlist" style={{background: "#c4613a", color: "#faf7f2", fontSize: "13px", fontWeight: 600, padding: "9px 22px", borderRadius: "999px", textDecoration: "none"}}>Join Waitlist</a>
         </div>
       </nav>
