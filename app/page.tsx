@@ -12,7 +12,7 @@ export default function Home() {
           </div>
         </div>
         <div style={{display: "flex", gap: "28px", alignItems: "center"}}>
-          <a href="#about" style={{color: "rgba(250,247,242,0.55)", fontSize: "13px", textDecoration: "none"}}>About</a>
+          <a href="/about" style={{color: "rgba(250,247,242,0.55)", fontSize: "13px", textDecoration: "none"}}>About</a>
           <a href="#boxes" style={{color: "rgba(250,247,242,0.55)", fontSize: "13px", textDecoration: "none"}}>Our Boxes</a>
           <a href="#business" style={{color: "rgba(250,247,242,0.55)", fontSize: "13px", textDecoration: "none"}}>For Business</a>
           <a href="#waitlist" style={{background: "#c4613a", color: "#faf7f2", fontSize: "13px", fontWeight: 600, padding: "9px 22px", borderRadius: "999px", textDecoration: "none"}}>Join Waitlist</a>
@@ -35,7 +35,7 @@ export default function Home() {
           </p>
           <div id="waitlist" style={{display: "flex", gap: "10px", maxWidth: "420px", position: "relative", zIndex: 1}}>
             <input type="email" placeholder="your@email.com" style={{flex: 1, background: "rgba(255,255,255,0.07)", border: "0.5px solid rgba(255,255,255,0.15)", borderRadius: "999px", padding: "13px 22px", color: "#faf7f2", fontSize: "14px", outline: "none"}} />
-            <button type="submit" style={{background: "#c4613a", color: "#faf7f2", fontSize: "14px", fontWeight: 600, padding: "13px 26px", borderRadius: "999px", border: "none", curso "pointer", whiteSpace: "nowrap"}}>Join Waitlist</button>
+            <button type="submit" style={{background: "#c4613a", color: "#faf7f2", fontSize: "14px", fontWeight: 600, padding: "13px 26px", borderRadius: "999px", border: "none", cursor: "pointer", whiteSpace: "nowrap"}}>Join Waitlist</button>
           </div>
           <p style={{color: "rgba(250,247,242,0.25)", fontSize: "11px", margin: "12px 0 0", letterSpacing: "0.03em", position: "relative", zIndex: 1}}>No spam. Unsubscribe anytime.</p>
         </div>
@@ -52,7 +52,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div style={{widt "100%", background: "#c4613a", borderRadius: "16px", padding: "22px 24px", position: "relative", zIndex: 1}}>
+          <div style={{width: "100%", background: "#c4613a", borderRadius: "16px", padding: "22px 24px", position: "relative", zIndex: 1}}>
             <div style={{position: "absolute", top: "-11px", right: "20px", background: "#faf7f2", color: "#c4613a", fontSize: "9px", fontWeight: 700, letterSpacing: "0.1em", padding: "3px 12px", borderRadius: "999px"}}>MOST POPULAR</div>
             <div style={{display: "flex", alignItems: "center", gap: "14px"}}>
               <div style={{width: "44px", height: "44px", borderRadius: "10px", background: "rgba(250,247,242,0.15)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "20px", flexShrink: 0}}>🌙</div>
