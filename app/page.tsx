@@ -35,11 +35,11 @@ export default function Home() {
         </p>
 
         {/* Waitlist Form */}
-        <d<div id="waitlist" className="w-full max-w-md">
+        <div id="waitlist" className="w-full max-w-md">
   <form action="https://formspree.io/f/mykvyzvw" method="POST" className="flex flex-col gap-3">
     <div className="flex flex-col sm:flex-row gap-3">
       <input
-        type="text"
+        type="text" 
         name="firstName"
         placeholder="First name"
         required
