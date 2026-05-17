@@ -35,25 +35,52 @@ export default function Home() {
         </p>
 
         {/* Waitlist Form */}
-        <div id="waitlist" className="w-full max-w-md">
-        <form action="https://formspree.io/f/mykvyzvw" method="POST" className="flex flex-col sm:flex-row gap-3">
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-              className="flex-1 px-5 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-[#c4613a] transition-colors"
-            />
-            <button
-              type="submit"
-              className="px-7 py-3 bg-[#c4613a] text-white font-medium rounded-full hover:bg-[#b0552f] transition-colors whitespace-nowrap"
-            >
-              Join Waitlist
-            </button>
-          </form>
-          <p className="text-white/40 text-xs mt-4">
-            Be the first to know when we launch. No spam, ever.
-          </p>
-        </div>
+        <d<div id="waitlist" className="w-full max-w-md">
+  <form action="https://formspree.io/f/mykvyzvw" method="POST" className="flex flex-col gap-3">
+    <div className="flex flex-col sm:flex-row gap-3">
+      <input
+        type="text"
+        name="firstName"
+        placeholder="First name"
+        required
+        className="flex-1 px-5 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-[#c4613a] transition-colors"
+      />
+      <input
+        type="text"
+        name="lastName"
+        placeholder="Last name"
+        required
+        className="flex-1 px-5 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-[#c4613a] transition-colors"
+      />
+    </div>
+    <input
+      type="email"
+      name="email"
+      placeholder="Enter your email"
+      required
+      className="w-full px-5 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-[#c4613a] transition-colors"
+    />
+    <select
+      name="interestedBox"
+      className="w-full px-5 py-3 rounded-full bg-[#1e3a2f] border border-white/20 text-white/70 focus:outline-none focus:border-[#c4613a] transition-colors"
+    >
+      <option value="">Which box interests you most?</option>
+      <option value="weight">Weight & Metabolic Health</option>
+      <option value="stress">Stress & Sleep Support</option>
+      <option value="focus">Focus & Concentration</option>
+      <option value="unsure">Not sure yet</option>
+    </select>
+    <button
+      type="submit"
+      className="w-full px-7 py-3 bg-[#c4613a] text-white font-medium rounded-full hover:bg-[#b0552f] transition-colors"
+    >
+      Join Waitlist
+    </button>
+  </form>
+  <p className="text-white/40 text-xs mt-4 text-center leading-relaxed">
+    By joining the waitlist you consent to Akura Health contacting you with updates about our launch and products. We will never share your data with third parties or send you spam. You can unsubscribe at any time.
+  </p>
+</div>
       </section>
 
       {/* Box Themes */}
