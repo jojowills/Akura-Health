@@ -39,6 +39,7 @@ export default function Home() {
         <form action="https://formspree.io/f/mykvyzvw" method="POST" className="flex flex-col sm:flex-row gap-3">
             <input
               type="email"
+              name="email"
               placeholder="Enter your email"
               className="flex-1 px-5 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-[#c4613a] transition-colors"
             />
