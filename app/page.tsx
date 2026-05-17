@@ -37,7 +37,6 @@ export default function Home() {
         {/* Waitlist Form */}
         <div id="waitlist" className="w-full max-w-md">
         <form action="https://formspree.io/f/mykvyzvw" method="POST" className="flex flex-col sm:flex-row gap-3">
-          " method="POST" className="flex flex-col sm:flex-row gap-3"></>>
             <input
               type="email"
               placeholder="Enter your email"
