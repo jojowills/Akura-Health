@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Business() {
   return (
-    <main style={{fontFamily: "sans-serif", background: "#1e3a2f", minHeight: "100vh"}}>
+    <main style={{background: "#1e3a2f", minHeight: "100vh"}}>
       <nav style={{display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px 48px", borderBottom: "0.5px solid rgba(255,255,255,0.08)"}}>
         <Link href="/" style={{display: "flex", alignItems: "center", gap: "14px", textDecoration: "none"}}>
           <Image src="/akura-logo.png" alt="Akura Health" width={100} height={100} style={{borderRadius: "50%"}} />
@@ -28,8 +28,8 @@ export default function Business() {
           <div style={{width: "6px", height: "6px", borderRadius: "50%", background: "#b8c4a8"}}></div>
           <span style={{color: "#b8c4a8", fontSize: "11px", fontWeight: 500, letterSpacing: "0.1em", textTransform: "uppercase"}}>Corporate Wellness</span>
         </div>
-        <h1 style={{color: "#faf7f2", fontSize: "clamp(40px,6vw,68px)", fontWeight: 800, lineHeight: 1.05, letterSpacing: "-0.03em", margin: "0 0 28px", position: "relative", zIndex: 1}}>
-          Wellness that works<br />as hard as your<br /><span style={{color: "#c4613a"}}>team does.</span>
+        <h1 style={{color: "#faf7f2", margin: "0 0 28px", position: "relative", zIndex: 1}}>
+          Wellness that works<br />as hard as your<br /><span>team does.</span>
         </h1>
         <div style={{width: "64px", height: "4px", background: "#b8c4a8", borderRadius: "2px", marginBottom: "36px"}}></div>
         <p style={{color: "rgba(250,247,242,0.65)", fontSize: "18px", lineHeight: 1.8, maxWidth: "600px", margin: 0, position: "relative", zIndex: 1}}>
@@ -42,13 +42,13 @@ export default function Business() {
         <div style={{position: "absolute", bottom: "-100px", left: "-60px", width: "400px", height: "400px", borderRadius: "50%", background: "rgba(196,97,58,0.05)"}}></div>
         <div style={{maxWidth: "960px", margin: "0 auto", position: "relative", zIndex: 1}}>
           <p style={{color: "rgba(30,58,47,0.5)", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", margin: "0 0 12px", textAlign: "center"}}>What we offer</p>
-          <h2 style={{color: "#1e3a2f", fontSize: "36px", fontWeight: 800, margin: "0 0 52px", textAlign: "center", lineHeight: 1.2}}>Two ways to bring Akura<br />into your workplace.</h2>
+          <h2 style={{color: "#1e3a2f", margin: "0 0 52px", textAlign: "center"}}>Two ways to bring Akura<br />into your workplace.</h2>
           <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px", marginBottom: "72px"}}>
             <div style={{background: "#1e3a2f", borderRadius: "24px", padding: "44px 40px", position: "relative", overflow: "hidden"}}>
               <div style={{position: "absolute", top: "-40px", right: "-40px", width: "200px", height: "200px", borderRadius: "50%", background: "rgba(196,97,58,0.1)"}}></div>
               <div style={{position: "absolute", bottom: "-30px", left: "-30px", width: "160px", height: "160px", borderRadius: "50%", background: "rgba(184,196,168,0.06)"}}></div>
               <div style={{width: "52px", height: "52px", borderRadius: "14px", background: "rgba(196,97,58,0.2)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "24px", marginBottom: "24px", position: "relative", zIndex: 1}}>&#128197;</div>
-              <h3 style={{color: "#faf7f2", fontWeight: 800, fontSize: "22px", margin: "0 0 12px", position: "relative", zIndex: 1}}>Monthly Subscription</h3>
+              <h3 style={{color: "#faf7f2", margin: "0 0 12px", position: "relative", zIndex: 1}}>Monthly Subscription</h3>
               <div style={{width: "32px", height: "2px", background: "#c4613a", borderRadius: "2px", marginBottom: "16px", position: "relative", zIndex: 1}}></div>
               <p style={{color: "rgba(250,247,242,0.6)", fontSize: "15px", lineHeight: 1.8, margin: "0 0 24px", position: "relative", zIndex: 1}}>A recurring wellness ritual for your team. Each month, beautifully curated boxes land on their desks with products chosen to support their health and performance.</p>
               <ul style={{color: "rgba(250,247,242,0.55)", fontSize: "14px", lineHeight: 2, margin: 0, paddingLeft: "0", listStyle: "none", position: "relative", zIndex: 1}}>
@@ -60,7 +60,7 @@ export default function Business() {
             <div style={{background: "white", borderRadius: "24px", padding: "44px 40px", border: "0.5px solid rgba(30,58,47,0.08)", position: "relative", overflow: "hidden"}}>
               <div style={{position: "absolute", top: "-40px", right: "-40px", width: "200px", height: "200px", borderRadius: "50%", background: "rgba(184,196,168,0.15)"}}></div>
               <div style={{width: "52px", height: "52px", borderRadius: "14px", background: "rgba(184,196,168,0.2)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "24px", marginBottom: "24px"}}>&#127873;</div>
-              <h3 style={{color: "#1e3a2f", fontWeight: 800, fontSize: "22px", margin: "0 0 12px"}}>One-off Gifting</h3>
+              <h3 style={{color: "#1e3a2f", margin: "0 0 12px"}}>One-off Gifting</h3>
               <div style={{width: "32px", height: "2px", background: "#c4613a", borderRadius: "2px", marginBottom: "16px"}}></div>
               <p style={{color: "rgba(30,58,47,0.6)", fontSize: "15px", lineHeight: 1.8, margin: "0 0 24px"}}>Make an occasion feel special. Whether it is an end of year gift, a team event or a wellbeing initiative, our one-off boxes are designed to impress.</p>
               <ul style={{color: "rgba(30,58,47,0.55)", fontSize: "14px", lineHeight: 2, margin: 0, paddingLeft: "0", listStyle: "none"}}>
@@ -93,7 +93,7 @@ export default function Business() {
         <div style={{position: "absolute", bottom: "-80px", right: "-80px", width: "320px", height: "320px", borderRadius: "50%", background: "rgba(196,97,58,0.08)"}}></div>
         <div style={{maxWidth: "720px", margin: "0 auto", position: "relative", zIndex: 1}}>
           <p style={{color: "rgba(30,58,47,0.6)", fontSize: "11px", fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", margin: "0 0 12px", textAlign: "center"}}>Get in touch</p>
-          <h2 style={{color: "#1e3a2f", fontSize: "36px", fontWeight: 800, margin: "0 0 16px", textAlign: "center", lineHeight: 1.2}}>Let us build something<br />great for your team.</h2>
+          <h2 style={{color: "#1e3a2f", margin: "0 0 16px", textAlign: "center"}}>Let us build something<br />great for your team.</h2>
           <p style={{color: "rgba(30,58,47,0.6)", fontSize: "16px", lineHeight: 1.8, margin: "0 0 48px", textAlign: "center"}}>Tell us a bit about your company and what you are looking for. We will be in touch within 48 hours.</p>
           <div style={{background: "white", borderRadius: "24px", padding: "48px", border: "0.5px solid rgba(30,58,47,0.08)"}}>
             <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px", marginBottom: "20px"}}>
@@ -132,7 +132,7 @@ export default function Business() {
             </div>
             <div style={{marginBottom: "28px"}}>
               <label style={{color: "rgba(30,58,47,0.6)", fontSize: "12px", fontWeight: 600, letterSpacing: "0.06em", textTransform: "uppercase", display: "block", marginBottom: "8px"}}>Anything else you would like us to know?</label>
-              <textarea placeholder="Tell us about your team and what you are hoping to achieve..." style={{width: "100%", padding: "13px 18px", borderRadius: "12px", border: "0.5px solid rgba(30,58,47,0.15)", fontSize: "14px", outline: "none", minHeight: "120px", resize: "vertical", boxSizing: "border-box", fontFamily: "sans-serif"}}></textarea>
+              <textarea placeholder="Tell us about your team and what you are hoping to achieve..." style={{width: "100%", padding: "13px 18px", borderRadius: "12px", border: "0.5px solid rgba(30,58,47,0.15)", fontSize: "14px", outline: "none", minHeight: "120px", resize: "vertical", boxSizing: "border-box"}}></textarea>
             </div>
             <button type="submit" style={{width: "100%", background: "#c4613a", color: "#faf7f2", fontSize: "15px", fontWeight: 600, padding: "16px", borderRadius: "12px", border: "none", cursor: "pointer"}}>Send Enquiry</button>
           </div>
