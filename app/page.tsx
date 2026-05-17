@@ -80,7 +80,7 @@ export default function Home() {
   <p className="text-white/40 text-xs mt-4 text-center leading-relaxed">
     By joining the waitlist you consent to Akura Health contacting you with updates about our launch and products. We will never share your data with third parties or send you spam. You can unsubscribe at any time.
   </p>
-</div>
+</div> 
       </section>
 
       {/* Box Themes */}
